@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-light_green.min.css" />
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
@@ -9,6 +9,62 @@
 </head>
 
 <body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout-icon"></div>
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout__title">Google home stat tracker</span>
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="#">Status</a>
+        <a class="mdl-navigation__link" href="#">Home overview</a>
+        <a class="mdl-navigation__link" href="#">Logs</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout__title">Menu</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="#">Track stats</a>
+      <a class="mdl-navigation__link" href="#">Setup devices</a>
+      <a class="mdl-navigation__link" href="#">Setup rooms</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--3-col">
+
+
+    <div class="mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Living room</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <label for="switch1" class="mdl-switch mdl-js-switch">
+  <input type="checkbox" id="switch1" class="mdl-switch__input">
+  <span class="mdl-switch__label">Ceiling light</span>
+</label>
+<label for="switch2" class="mdl-switch mdl-js-switch">
+<input type="checkbox" id="switch2" class="mdl-switch__input">
+<span class="mdl-switch__label">Radio</span>
+</label>
+<label for="switch3" class="mdl-switch mdl-js-switch">
+<input type="checkbox" id="switch3" class="mdl-switch__input">
+<span class="mdl-switch__label">Fan</span>
+</label>
+</div>
+
+</div>
+  </div>
+  <div class="mdl-cell mdl-cell--4-col">
+    <div class="mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Kitchen</h2>
+  </div>
+</div>
+</div>
+  </main>
+  </div>
 </body>
 
 </html>
